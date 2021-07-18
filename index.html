@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">
+                    <img src="assets/img/logo.png" width="58" />
+                </a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#galeria">tecnologias</a></li>
+                    <li><a href="#cadastro">cadastro</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Gama Academy | Hiring Coders</h2>
+                <p>Sem enrolação, esse é o curso que vai te fazer arranjar um trampo na área! E o melhor, caso queira
+                    você só paga quando conquistar seu emprego..</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/html-css.svg" alt="uma pessoa olhando para uma tela com css e html">
+            </div>
+        </div>
+
+
+
+        <section id="galeria" class="grid-one gray-bg section">
+            <div class="main-content grid-one-content">
+                <h2 class="grid-main-heading">Tecnologias</h2>
+                <p class="grid-description">Tecnologias que iremos trabalhar durante o curso.</p>
+                <div class="grid">
+                    <div class="galeria-img">
+                        <img src="assets/img/css.png" width="270" alt="css tumbnails from laracasts" />
+                    </div>
+                    <div class="galeria-img">
+                        <img src="assets/img/html.png" width="270" alt="html tumbnails from pngtree" />
+                    </div>
+                    <div class="galeria-img">
+                        <img src="
+                        assets/img/javascript.png" width="270" alt="react tumbnails from iconspng" />
+                    </div>
+                    <div class="galeria-img">
+                        <img src="assets/img/git.png" width="270" alt="js image from t3" />
+                    </div>
+                    <div class="galeria-img">
+                        <img src="assets/img/react.png" width="270" alt="img from seeklogo" />
+                    </div>
+                    <div class="galeria-img">
+                        <img src="assets/img/node.png" width="270" alt="img from avatars0" />
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="cadastro" class="intro main-bg section">
+            <div class="main-content intro-content">
+                <div class="intro-text-content">
+                    <h2>Curtiu?! Cadastre-se para saber mais!</h2>
+
+                </div>
+                <div class="intro-img">
+
+                </div>
+                <div class="cadastro-form">
+                    <fieldset class="form-grid">
+
+
+                        <div class="form-group">
+                            <label for="first-name">Primeiro nome</label>
+                            <input type="text" name="first-name" id="first name" placeholder="seu nome">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="last-name">Sobrenome</label>
+                            <input type="text" name="last-name" id="last name" placeholder="seu sobrenome">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="seu e-mail">
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </fieldset>
+
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer" class="footer white-bg">
+            <p><a rel="nofollow" target="_blank" class="text-footer">Desenvolvido por Lucas Destro"</a>
+                <a rel="nofollow" target="_blank" class="img-footer" href="https://www.linkedin.com/in/lucas-destro-483102214/"><img
+                        src="/assets/img/linkedin.png" width="40" class="footer"></a>
+                <a rel="nofollow" target="_blank" class="img-footer" href="https://github.com/lfsdestro"><img
+                        src="/assets/img/github.png" width="32" class="footer"></a>        
+            </p>
+
+        </footer>
+
+        <a class="back-to-top" href="#">➤</a>
+
+
+
+
+
+
+</body>
+
+</html>
