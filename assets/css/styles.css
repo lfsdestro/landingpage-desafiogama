@@ -439,6 +439,17 @@ body .full-width {
         display: none;
     }
 
+   h2.cadastro-responsivo {
+    font-size: 3.4rem;
+    margin-bottom: 2rem;
+   }
+   
+   h2.intro-responsiva {
+    font-size: 3.4rem;
+    margin-bottom: 2rem;
+   }
+
+
 }
 
 
